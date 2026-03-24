@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <!-- Tailwind CDN -->
+  <script src="https://cdn.tailwindcss.com"></script>
+
+  <!-- Font -->
+  <link href="https://fonts.googleapis.com/css2?family=Karla:wght@400;700&display=swap" rel="stylesheet">
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <title>Single Price Grid</title>
+
+  <style>
+    body { font-family: 'Karla', sans-serif; }
+  </style>
+</head>
+
+<body class="bg-[hsl(204,43%,93%)]">
+
+  <section class="flex justify-center items-center mt-[60px] mb-[10px]">
+    
+    <div class="w-[90%] md:w-[80%] lg:w-[550px] rounded-md shadow-[0_0_20px_rgb(131,125,125)] overflow-hidden flex flex-col">
+
+      <!-- TOP -->
+      <div class="bg-white p-10 flex flex-col justify-center">
+        <p class="text-[18px] font-bold text-[hsl(179,62%,43%)]">
+          Join our community
+        </p>
+
+        <p class="mt-5 font-bold text-[hsl(71,73%,54%)]">
+          30-day, hassle-free money back guarantee
+        </p>
+
+        <p class="mt-5 text-[14px] text-[hsl(218,22%,67%)]">
+          Gain access to our full library of tutorials along with expert code reviews.
+          Perfect for any developers who are serious about honing their skills.
+        </p>
+      </div>
+
+      <!-- BOTTOM -->
+      <div class="flex flex-col md:flex-row w-full">
+
+        <!-- LEFT -->
+        <div class="bg-[hsl(179,62%,43%)] p-10 flex flex-col justify-center w-full">
+          <h1 class="text-white text-[15px] font-bold">
+            Monthly Subscription
+          </h1>
+
+          <p class="mt-5 flex items-center">
+            <span class="text-white text-[30px] font-bold mr-5">$29</span>
+            <span class="text-[hsl(216,37%,86%)] text-[13px] relative -top-[5px]">
+              per month
+            </span>
+          </p>
+
+          <p class="text-white text-[12px] mt-5">
+            Full access for less than $1 a day
+          </p>
+
+          <a href="#"
+             class="mt-5 bg-[hsl(71,73%,54%)] text-white text-[15px] font-bold p-2 text-center rounded-md transition-all duration-300 hover:scale-105 hover:shadow-[0_0_20px_rgb(128,220,157)]">
+            Sign Up
+          </a>
+        </div>
+
+        <!-- RIGHT -->
+        <div class="bg-[hsl(179,69%,49%)] p-10 flex flex-col justify-center w-full">
+          <h1 class="text-white text-[15px] font-bold">
+            Why Us
+          </h1>
+
+          <ul>
+            <li><a href="#" class="text-white text-[12px] hover:text-[hsl(71,73%,54%)] transition -mb-40px">Tutorials by industry experts</a></li>
+            <li><a href="#" class="text-white text-[12px] hover:text-[hsl(71,73%,54%)] transition -mb-40px">Peer & expert code review</a></li>
+            <li><a href="#" class="text-white text-[12px] hover:text-[hsl(71,73%,54%)] transition -mb-40px">Coding exercises</a></li>
+            <li><a href="#" class="text-white text-[12px] hover:text-[hsl(71,73%,54%)] transition -mb-40px">Access to our GitHub repos</a></li>
+            <li><a href="#" class="text-white text-[12px] hover:text-[hsl(71,73%,54%)] transition -mb-40px">Community forum</a></li>
+            <li><a href="#" class="text-white text-[12px] hover:text-[hsl(71,73%,54%)] transition -mb-40px">Flashcard decks</a></li>
+            <li><a href="#" class="text-white text-[12px] hover:text-[hsl(71,73%,54%)] transition -mb-40px">New videos every week</a></li>
+          </ul>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <p class="text-[11px] text-center mb-5">
+      Challenge by 
+      <a href="#" class="text-[hsl(228,45%,44%)] hover:text-[hsl(5,65%,34%)] transition">
+        Frontend Mentor
+      </a>. 
+      Coded by <a href="#">AV</a>.
+    </p>
+  </footer>
+
+</body>
+</html>
